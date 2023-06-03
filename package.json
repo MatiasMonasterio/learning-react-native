@@ -11,7 +11,9 @@
     "start:navigations": "npm run start --w=navigations",
     "android:navigation": "npm run android --w=navigations",
     "start:movies": "npm run start --w=movies",
-    "android:movies": "npm run android --w=movies"
+    "android:movies": "npm run android --w=movies",
+    "start:pokedex": "npm run start --w=pokedex",
+    "android:pokedex": "npm run android --w=pokedex"
   },
   "dependencies": {
     "@react-native-masked-view/masked-view": "0.2.9",
@@ -25,6 +27,7 @@
     "axios": "^1.4.0",
     "react": "18.2.0",
     "react-native-gesture-handler": "2.10.1",
+    "react-native-image-colors": "^2.0.0",
     "react-native-pager-view": "6.2.0",
     "react-native-paper": "5.8.0",
     "react-native-reanimated": "^2.17.0",
