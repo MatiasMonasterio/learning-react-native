@@ -13,9 +13,12 @@
     "start:movies": "npm run start --w=movies",
     "android:movies": "npm run android --w=movies",
     "start:pokedex": "npm run start --w=pokedex",
-    "android:pokedex": "npm run android --w=pokedex"
+    "android:pokedex": "npm run android --w=pokedex",
+    "start:authentication": "npm run start --w=authentication",
+    "android:authentication": "npm run android --w=authentication"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.18.1",
     "@react-native-masked-view/masked-view": "0.2.9",
     "@react-navigation/bottom-tabs": "6.5.7",
     "@react-navigation/drawer": "6.6.2",
